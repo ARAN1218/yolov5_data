@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/yolov5_data/pigeon_5/train/
+val: /content/yolov5_data/pigeon_5/val/
+test: /content/yolov5_data/pigeon_5/test/
+
+# number of classes
+nc: 5
+
+# class names
+names: ['カワラバト', 'キジバト', 'アオバト', 'シラコバト', 'カラスバト']
